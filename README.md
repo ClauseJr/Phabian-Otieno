@@ -1,58 +1,74 @@
-# Monday Coffee Expansion SQL Project
+# Online Library Management System Project
 
-![Company Logo](https://github.com/najirh/Monday-Coffee-Expansion-Project-P8/blob/main/1.png)
 
 ## Objective
-The goal of this project is to analyze the sales data of Monday Coffee, a company that has been selling its products online since January 2023, and to recommend the top three major cities in India for opening new coffee shop locations based on consumer demand and sales performance.
+The goal of this project is to analyze the sales data of an Online Library Management System, a bookshop has been selling its books online since December 2022; and to recommend the top three liked genre and the top customers with higher purchases in different cities, for the bookshop to consider on the establishment of other genres and analysis of the stock based on the books read, type of genre and the sales of different books per customers. 
 
 ## Key Questions
-1. **Coffee Consumers Count**  
-   How many people in each city are estimated to consume coffee, given that 25% of the population does?
-
-2. **Total Revenue from Coffee Sales**  
+1. **Total Revenue from Book Sales**
+   What is the total revenue generated from book sales across all customers in the year 2024?
+   
+2. **Total Revenue from Coffee Sales**
    What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
-
-3. **Sales Count for Each Product**  
+   
+3. **Sales Count for Each Product**
    How many units of each coffee product have been sold?
-
-4. **Average Sales Amount per City**  
+   
+4. **Average Sales Amount per City**
    What is the average sales amount per customer in each city?
-
-5. **City Population and Coffee Consumers**  
-   Provide a list of cities along with their populations and estimated coffee consumers.
-
-6. **Top Selling Products by City**  
+   
+5. **Top Selling Products by City**
    What are the top 3 selling products in each city based on sales volume?
-
-7. **Customer Segmentation by City**  
+   
+6. **Customer Segmentation by City**
    How many unique customers are there in each city who have purchased coffee products?
 
-8. **Average Sale vs Rent**  
+7. **Average Sale vs Rent**
    Find each city and their average sale per customer and avg rent per customer
 
-9. **Monthly Sales Growth**  
-   Sales growth rate: Calculate the percentage growth (or decline) in sales over different time periods (monthly).
+8. **Monthly Sales Growth**
+   Sales growth rate:
+   Calculate the percentage growth (or decline) in sales over different time periods (monthly) by each city
 
-10. **Market Potential Analysis**  
-    Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated  coffee consumer
+9. **Market Potential Analysis**
+    Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated coffee consumer
+    
+10. **Customer Lifetime Analysis**
+    Which customers have generated the highest lifetime revenue for the library, and when did each make their most recent purchase?
+    
+11. **Monthly Revenue Contribution by Top Authors**
+    Which authors contributed the highest share of total revenue each month in 2024, and how does their performance trend over time?
+    
+12. **Seasonal Customer Buying Pattern and Revenue Share**
+    Which customers contributed the most to total sales during each quarter of 2024, and how does their purchase frequency compare across the year?
+
     
 
 ## Recommendations
-After analyzing the data, the recommended top three cities for new store openings are:
+After analyzing the data, the following recommendations were drawn:
 
-**City 1: Pune**  
-1. Average rent per customer is very low.  
-2. Highest total revenue.  
-3. Average sales per customer is also high.
+SUMMARY OF CUSTOMERS WITH THE HIGHEST PURCHASE
 
-**City 2: Delhi**  
-1. Highest estimated coffee consumers at 7.7 million.  
-2. Highest total number of customers, which is 68.  
-3. Average rent per customer is 330 (still under 500).
+**1. Kim Turner**
+Made the highest purchases at a total of 13.989k with 4 orders of books
+**2. Jonathon Strickland**
+Made higher purchases at a total of 10.81k with 4 orders
+**3. Carrie Perez**
+Made higher purchases at a total of 10.52k with a higher order of 6 books
 
-**City 3: Jaipur**  
-1. Highest number of customers, which is 69.  
-2. Average rent per customer is very low at 156.  
-3. Average sales per customer is better at 11.6k.
+SUMMARY OF THE MOST LIKED GENRES OF BOOKS
+
+**Genre 1: Romance**
+	a. Most loved genre with a total of 75 customers 
+	b. Highest sales recorded from the customers at 13.0886k
+**Genre 2: Mystery**
+	a. Mostly loved genre with a total of 76 customers 
+	b. Highest sales recorded from the customers at 12.788k
+	c. Recorded a higher number of orders from the sales of books at 83
+**Genre 3: Science Fiction**
+	a. Most loved genre with a total of 75 customers 
+	b. Recorded the highest number of orders from the sales of books at 84
+
+
 
 ---
